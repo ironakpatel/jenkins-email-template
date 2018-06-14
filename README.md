@@ -3,13 +3,13 @@ jelly template for jenkins email extension plugin
 
 
 ##### Installation:
- Copy **`detailed_email.jelly`** file on jenkins' `$JENKINS_HOME/email-templates/` directory</br>
+ Copy **`detailed_email.jelly`** file on jenkins' `$JENKINS_HOME/email-templates/` directory.</br>
 
 ##### Usage:
 - Use template name as `${JELLY_SCRIPT,template="detailed_email"}`
-![Scheme](extension-settings.png)
+![Scheme](images/extension-settings.png)
 - Use email extension plugin in you jenkins job
 - And get formatted email in your inbox:
-    - build Artifacts are direct download links to your jenkins.
-![Scheme](email1.png)
-![Scheme](email2.png)
+    - Build Artifacts are direct download links to your jenkins.
+![Scheme](images/email1.png)
+![Scheme](images/email2.png)
